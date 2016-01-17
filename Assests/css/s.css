@@ -1,0 +1,119 @@
+p{
+	text-align: left;
+	font-size: 12px;
+	font-family: sans-serif, Verdana;
+
+}
+.lead
+ { 
+   color: black; 
+   font: bold 100px/80px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0); 
+   margin: 20px;
+   padding: 5px;
+   text-align: center;
+  
+ }
+
+.thumbnail
+{
+  background-color: #d1e0e0;
+  padding: 10px;
+  margin: 5px; 
+} 
+.jumbotron
+{
+  background-color: #24BA99;
+}
+
+body
+{
+  padding-top: 49px;
+}
+.part1
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.part2
+{
+  float: right;
+  margin-left: 30px;
+}
+
+.row
+{
+  background-color: #222222;
+  color: #24BA99;
+}
+
+.col-md-3 ul li
+{
+  list-style: none;
+  font-family: Verdana;
+}
+.col-md-3 ul li a
+{
+  text-decoration: none;
+  color: #fafafa;
+
+}
+.footer_bottom
+{
+  background-color: #222222;
+}
+.footer_logo{
+  float: right;
+
+}
+.footer_end_text
+{
+  float: left;
+  font-family: Verdana;
+  font-size: 25px;
+  color: #fe9a2e;
+  padding-top: 40px;
+
+}
+.list a:hover{
+  color:#fe9a2e;
+}
+
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method.*/
+/*
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+*/

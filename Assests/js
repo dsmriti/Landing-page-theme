@@ -1,0 +1,26 @@
+$(document).ready(function() {
+//function of scrolling the page
+$('a[href^="#"]').click(function(event) {
+$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+});
+//code for autoplay of owl-carousel
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+    autoheight:true,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,3]
+});
+//function of on click button on owl-carousel
+$("#next").click(function(){
+    owl.trigger('next.owl.carousel');
+  })
+  $("#prev").click(function(){
+    owl.trigger('prev.owl.carousel');
+  })
+});

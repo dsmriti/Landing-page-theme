@@ -5,9 +5,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="Assests/css/newpage.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</head>
+<!-- owl includes -->
+<link rel="stylesheet" href="assests/plugin/owl/assets/owl.carousel.css">
+<!-- owl inlcudes end -->
+<script src="Assests/js/newpage.js"></script>
+</head> 
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 	<div class="container">  
@@ -19,19 +27,19 @@
           </button>
           <a href="#1" class="navbar-brand">BRAND</a>
 		</div><!--navbar header closed-->
-		<div class="collapse navbar-collapse navbar-right" id="navbar-collapse" >
+		<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
          <ul class="nav navbar-nav">
-          <li ><a class="page-scroll" href="#1">Home</a></li>
-          <li ><a class="page-scroll" href="#2">Portfolio</a></li>
-          <li ><a class="page-scroll" href="#3">About Us</a></li>
-          <li ><a class="page-scroll" href="#4">Gallery</a></li>
-          <li ><a class="page-scroll" href="#5">Contact Us</a></li>
+          <li ><a class="expand" href="#p1">Home</a></li>
+          <li ><a class="expand" href="#p2">Portfolio</a></li>
+          <li ><a class="expand" href="#p3">About Us</a></li>
+          <li ><a class="expand" href="#p4">Gallery</a></li>
+          <li ><a class="expand" href="#p5">Contact Us</a></li>
          </ul>
 		</div>
 	</div>
 </nav>
 <!--first upper page-->
-<section id="1">
+<section id="p1">
 <div class="container-fluid first-img">
 <img class="img-responsive" src="Assests/images/wall.jpeg" height="300px" width="1350px"/>
 <div class="carousel-caption head-page"><h3>"Get the best services from us"</h3></div>
@@ -39,8 +47,8 @@
 </section>
 <!--end of first upper page-->
 <!--portfolio -->
-<section id="2">
-<div class="page2" >
+<section id="p2">
+<div class="page2">
 <div class="container second-page">
 	<h3 class="head-section">Portfolio</h3>
     <div class="row portfolio-img">
@@ -48,108 +56,109 @@
 		<div class="col-md-4 col-sm-4 " ><a href="#"><img class="img-responsive" src="Assests/images/logo-2.jpg" alt="image can't be loaded"/></a></div>
 		<div class="col-md-4 col-sm-4" ><a href="#"><img class="img-responsive" src="Assests/images/logo-3.jpg" alt="image can't be loaded"/></a></div>
     </div>
-
-    <div class="row portfolio-img">
+   <div class="row portfolio-img">
 	  <div class="col-md-4 col-sm-4 "><a href="#"><img class="img-responsive" src="Assests/images/logo-4.jpg" alt="image can't be loaded"/></a></div>
 		<div class="col-md-4 col-sm-4 "><a href="#"><img class="img-responsive" src="Assests/images/logo-5.png" alt="image can't be loaded"/></a></div>
 		<div class="col-md-4 col-sm-4 "><a href="#"><img class="img-responsive" src="Assests/images/logo-6.jpg" alt="image can't be loaded"/></a></div>
     </div>
-	
+	</div>
 </div>
-</div>
-</section>
-<!--end of portfolio -->
+</section><!--end of portfolio -->
 <!--about us-->
-<section id="3">
+<section id="p3">
 <div class="page3" >
 <div class="container third-page">
 	<div class="row third">
 		<h3 class="head-section">About Us</h3> <br>
-		
-    <div class="col-md-6 col-sm-6 para">
+		<div class="col-md-6 col-sm-6 para">
       <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
       </p></div>
-		
-    <div class="col-md-6 col-msm-6 para">
+		<div class="col-md-6 col-sm-6 para">
       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.
       </p></div>
 	</div>
 </div>
 </div>
 </section> <!--end about us-->
-
-<section> <!--gallery-->
-<div  id="4">
- <section>
-  <div class="carousel slide" id="sreenshot-carousel" data-ride="carousel" > 
-   <ol class="carousel-indicators">
-     <li data-target="#screenshot-carousel"  class="active" data-slide-to="0"></li>
-     <li data-target="#screenshot-carousel"  data-slide-to="1"></li>
-     <li data-target="#screenshot-carousel"  data-slide-to="2"></li>
-     <li data-target="#screenshot-carousel"  data-slide-to="3"></li>
-     <li data-target="#screenshot-carousel"  data-slide-to="4"></li>
-    </ol>
-  <div class="carousel-inner" data-interval="pause">
-     <div class="item ">
-     <img class="img-responsive" src="Assests/images/slide-image1.jpg" /> 
+<section id="p4"> <!--gallery-->
+<div id="owl-demo" class="owl-carousel owl-theme owl-loaded">
+   <div class="item">
+     <img class="img-responsive" src="Assests/images/s1.jpg" /> 
     </div>
-     <div class="item active">
-     <img class="img-responsive" src="Assests/images/slide-image2.png" />
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s2.jpg" />
       </div>
     <div class="item ">
-     <img class="img-responsive" src="Assests/images/slide-image3.jpg" /> 
+     <img class="img-responsive" src="Assests/images/s3.jpg" /> 
      </div>
     <div class="item ">
-     <img class="img-responsive" src="Assests/images/slide-image4.jpg" /> 
+     <img class="img-responsive" src="Assests/images/s4.jpg" /> 
      </div>
     <div class="item">
-     <img class="img-responsive" src="Assests/images/slide-image5.jpg" /> 
+     <img class="img-responsive" src="Assests/images/s5.jpg" /> 
      </div>
-  </div><!--end of carousel inner-->
-  <a href="#sreenshot-carousel" class="left carousel-control" data-slide="prev" >
-  <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a href="#sreenshot-carousel" class="right carousel-control" data-slide="next" >
-  <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
- </div><!--end of carousel slide-->
- </div>
- </section><!--end of gallery-->
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s6.jpg" /> 
+     </div>
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s7.jpg" /> 
+     </div>
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s8.jpg" /> 
+     </div>
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s9.jpg" /> 
+     </div>
+     <div class="item">
+     <img class="img-responsive" src="Assests/images/s10.jpg" /> 
+     </div>
+   </div>
+  <div class="customNavigation text-center">
+  <a class="btn btn-success" id="prev">Previous</a>
+  <a class="btn btn-success" id="next">Next</a>
+</div>
+</section><!--end of gallery-->
+<!--intro of team member-->
  <section class="team-leader">
 <div class="container">
   <p class="head-section">Our Leading Team</p>
   <div class="row team">
-  <div class="col-md-4 col-sm-4 s">
-    <img class="img-circle img-responsive" src="Assests/images/member-1.jpg">
+  <div class="col-md-4 col-sm-4 ">
+    <div class="team-hover">
+    <img class="img-circle img-responsive" src="Assests/images/member-1.jpg"></div>
     <h4>Team Leader</h4>
     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
   </div>
   <div class="col-md-4 col-sm-4 ">
-    <img class="img-circle img-responsive" src="Assests/images/member-2.jpg">
+    <div class="team-hover">
+    <img class="img-circle img-responsive" src="Assests/images/member-2.jpg"></div>
     <h4>web designer</h4>
     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
   </div>
   <div class="col-md-4 col-sm-4 ">
-    <img class="img-circle img-responsive" src="Assests/images/member-3.jpg">
+    <div class="team-hover">
+    <img class="img-circle img-responsive" src="Assests/images/member-3.jpg"></div>
     <h4>Marketing head</h4>
     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
   </div>
   </div>
 </div>
  </section> 
+ <!--Download our app-->
  <section class="app-section">
-   <div class="container">
-    <div class="row text-center">
-     <div class="col-md-12 col-sm-12 col-xs-12">
-       <p >You can download our mobile app to get the best service available from us</p>
-       <button type="button" class="btn btn-warning">Download App</button>
-  </div>
-     </div>
+     <div class="container">
+      <div class="row text-center">
+       <div class="col-md-12 col-sm-12 col-xs-12">
+         <p >You can download our mobile app to get the best service available from us</p>
+         <button type="button" class="btn btn-info">Download App</button>
     </div>
-   </div>
+       </div>
+      </div>
+     </div>
  </section>
-<section id="5"><!--contact us-->
-<div class="page4" >
+ <!--contact us-->
+<section id="p5">
+<div class="page5" >
 <div class="container fourth-page">
 	<h3 class="head-section">Contact Us</h3><br>
 	<div class="row">
@@ -160,7 +169,7 @@
 <input type="text" placeholder="Name" class="form-control">
 <input type="email" placeholder="E-mail" class="form-control">
 <input type="text" placeholder="Phone No." class="form-control">
-<button type="button" class="btn btn-primary text-center">Sign In</button>
+<div class="text-center submit"><button type="button" class="btn btn-info">Submit</button></div>
 </div>
 </form>
 </div>
@@ -176,12 +185,14 @@
       <h4 class="footer-heading">LOCATION</h4>
      	<p>3481 Melrose Place Beverly<br> Hills, CA 90210</p></div>
       <div class="col-md-4 text-center"><h4 class="footer-heading">JOIN AT</h4>
-      <ul>
-           <li><a href=""><img src="http://www.underconsideration.com/brandnew/archives/facebook_logo_detail.gif" /></a></li>
-           <li><a href=""><img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-plus-icon.png" /></a></li>
-           <li><a href=""><img src="http://webchicago.alsa.org/images/content/pagebuilder/twitter_logo.png" /></a></li>
-           <li><a href=""><img src="http://i239.photobucket.com/albums/ff261/harrie1978/DISCO%20LIMBURG%20WEBSITE/linkedin-logo.png" /></a></li>
+        <div class="text-center">
+        <ul>
+           <li><a href=""><i class="fa fa-facebook-square fa-3x facebook"></i></a></li>
+           <li><a href=""><i class="fa fa-google-plus-square fa-3x google"></i></a></li>
+           <li><a href=""><i class="fa fa-twitter-square fa-3x twitter"></i></a></li>
+           <li><a href=""><i class="fa fa-linkedin-square fa-3x linkedin"></i></a></li>
       </ul>
+    </div>
      </div>
      <div class="col-md-4 text-center"><h4 class="footer-heading">OUR SERVICES</h4>
      	<p>Freelance is a free to use, open source <br>
@@ -189,6 +200,7 @@
 	</div>
 </div>
 </div>
-<footer id="footer-last">Copyright reserved 2015</footer>
+<footer id="footer-last"> Copyright &copy; reserved 2016</footer>
+<script src="assests/plugin/owl/owl.carousel.min.js"></script>
 </body>
-</html>
+</html> 
